@@ -183,3 +183,38 @@ ul {
 .address-list .link:focus {
   color: var(--primary-white-color);
 }
+
+/* Стилі для сторінки Портфоліо */
+
+.button-filter {
+  color: var(--title-text-color);
+  background: var(--team-bg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--accent-color);
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.list-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
